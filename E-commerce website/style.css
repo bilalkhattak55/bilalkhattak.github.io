@@ -1,0 +1,73 @@
+.navbar{
+    background-color: #AD1457 !important;
+}
+
+.nav-link{
+    color: beige !important;
+    font-weight: bold !important;
+}
+.fa-shopping-basket,.fa-users{
+    font-size: 25px !important;
+}
+
+.fa-truck,.fa-phone,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    
+}
+.card1,.card2,.card3{
+    
+  display: flex;
+  box-shadow: 2px 4px 5px grey;
+  height: 100px;
+  width: 360px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #fff;
+  
+  
+  
+  
+    
+}
+.mainCard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+@media screen and (max-width : 600px) {
+    .card1,.card2,.card3{
+        width:100%;
+    }
+    
+}
+h1{
+    text-align: center;
+    margin: 30px;
+}
+.card{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn-primary{
+    width: 100%;
+}
+div > h4{
+    background-color:blue ;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
