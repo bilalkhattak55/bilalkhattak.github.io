@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyCGgViOTWCHTjiR-amSOyU3o4zPuPEk_K0",
+          authDomain: "web-and-mobile-4d398.firebaseapp.com",
+          projectId: "web-and-mobile-4d398",
+          storageBucket: "web-and-mobile-4d398.appspot.com",
+          messagingSenderId: "374140368401",
+          appId: "1:374140368401:web:2056f5f078122ee45e63b0",
+          measurementId: "G-LY55D1H0BR"
+        };
+        firebase.initializeApp(firebaseConfig);
+      </script>
+</head>
+<body>
+    
+
+    <div>
+        <input type="text" id="todo-item" placeholder="type...">
+        <button onclick="addTodo()">ADD Item</button>
+        <button onclick="deleteAll()">Delete all</button>
+    </div>
+    <div>
+        <ul id="list">
+
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
