@@ -1,0 +1,15 @@
+fieldset{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+*{
+    background-color: aqua;
+}
+.btn{
+    margin-top: 30px;
+    height: 30px;
+    margin-left: 400px;
+    width: 300px;
+    font-weight: bold;
+    background-color: red;
+}

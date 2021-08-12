@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quiz about general knowledge</h1>
+
+    <div>
+        <fieldset>
+            <p>what is the sum of 2+15</p>
+            <input type="radio" name="math-question" id="q1-a1" >19 </input>
+            <input type="radio" name="math-question" id="q1-a2" >17 </input>
+            <input type="radio" name="math-question" id="q1-a3" >76 </input>
+            <input type="radio" name="math-question" id="q1-a4" >109 </input>
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset>
+            <p>who is the primr minister of pakistan?</p>
+            <input type="radio" name="prime" id="q2-a1">imran khan</input>
+            <input type="radio" name="prime" id="q2-a2">zardari sab pe bhari</input>
+            <input type="radio" name="prime" id="q2-a3">arif alvi</input>
+            <input type="radio" name="prime" id="q2-a4">all of the above</input>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <p>what is the national game of pakistan?</p>
+            <input type="radio" name="game" id="q3-a1">cricket</input>
+            <input type="radio" name="game" id="q3-a2">football</input>
+            <input type="radio" name="game" id="q3-a3">hockey</input>
+            <input type="radio" name="game" id="q3-a4">maram pitti</input>
+        </fieldset>
+        <button class="btn" onclick="check()">Result</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
